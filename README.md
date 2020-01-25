@@ -65,6 +65,7 @@ Topics included/covered
 
 1. [Introduction to Node-Nodejs](#1-introduction-to-node-nodejs)
     - 1.1. [What is Node-Nodejs](#11-what-is-node-nodejs)
+    - 1.2. [Why Node](#12-why-node)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -85,5 +86,16 @@ Topics included/covered
   - Asynchronous
   - Non-blocking
   - Event-Based
-  - Single thread
- 
+  - Single thread / Single threaded
+
+1.2. Why Node
+---------------------
+
+- Great for prototyping and agile development
+- Super-fast and highly scalable
+- Non-blocking - Asynchronous nature (more tasks/code run at a time)
+- JavaScript is a programming language used everywhere (Front-end + Back-end)
+- Cleaner and more consistent codebase/source code
+- The largest ecosystem of open-source libraries
+- Great open-source community support
+
