@@ -25,6 +25,8 @@ This is a comprehensive & concise tutorial to learn/use the NPM - Node Package M
 
 NPM makes it easy for javascript developers to publish, share and reuse codes, and also makes it easy to update the codes with NPM Registry. 
 
+This Node-NPM Tutorial will help/ease in understanding the basic building, needs and fundamentals of NPM and ultimately give a head start in Nodejs.
+
 Who is this for? 
 ---------------------
 
@@ -69,6 +71,9 @@ Topics included/covered
     - 1.3. [What Node can do?](#13-what-node-can-do)
     - 1.4. [Installing Node/NPM](#14-installing-node)
 
+2. [Introduction to NPM](#2-introduction-to-npm)
+    - 2.1. [What is NPM ](#21-what-is-npm)
+
 1 Introduction to Node-Nodejs
 =====================
 
@@ -88,7 +93,7 @@ Topics included/covered
   - Asynchronous
   - Non-blocking
   - Event-Based
-  - Single thread / Single threaded
+  - Single thread / Single-threaded
 
 1.2. Why Node
 ---------------------
@@ -131,4 +136,25 @@ In this section, we will learn how to set up a local development environment by 
 - To get/check version of node, command: `node -v` / `node --version` 
 OR 
 - To get/check version of npm, command: `npm -v` / `npm --version`
+
+2 Introduction to NPM
+=====================
+
+<p align="center">
+ <img src="_images-npm-node-package-manager/3-node-npm-logo-3.png" alt="NPM - Node Package Manager" title="NPM - Node Package Manager" width="125" align="right" />
+</p>
+
+2.1. What is NPM
+---------------------
+
+- NPM stands for `Node Package Manager `
+- It is responsible for managing all the Node.js packages/dependencies and modules present in an application
+- NPM comes `bundled with Node/Nodejs`, so it gets installed directly/automatically with Node
+- NPM is the default package manager for Node, and it's fully written/coded/developed in JavaScript
+- `NPM (Node Package Manager)` is a command-line tool and registry for Third-Party Library(s) which we can add to our Node/Nodejs application
+- Node Package Manager is the largest ecosystem (software registry) in the open-source code community. It helps to automate installations and updations of dependent packages
+- For any types of functionality, we need to incorporate/add-in application, most probably a free, open-source Node library/package/module available with NPM
+- Now a days NPM is a very popular/well-known term among the Web Development community. NPM is a package manager for Node/JavaScript packages or modules
+- Developed by `Isaac Z. Schlueter`, initially released in `Jan-2010`
+
 
