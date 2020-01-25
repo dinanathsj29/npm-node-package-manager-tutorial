@@ -73,6 +73,7 @@ Topics included/covered
 
 2. [Introduction to NPM](#2-introduction-to-npm)
     - 2.1. [What is NPM ](#21-what-is-npm)
+    - 2.2. [Package Manager/Module Manager](#22-package-manager/module-manager) | [Package Management System](#22-package-management-system)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -156,5 +157,32 @@ OR
 - For any types of functionality, we need to incorporate/add-in application, most probably a free, open-source Node library/package/module available with NPM
 - Now a days NPM is a very popular/well-known term among the Web Development community. NPM is a package manager for Node/JavaScript packages or modules
 - Developed by `Isaac Z. Schlueter`, initially released in `Jan-2010`
+
+2.2. Package Manager/Module Manager
+---------------------
+2.2. Package Management System
+---------------------
+
+### **2.2.1. Package**
+---------------------
+The package is nothing but just a `collection of code ready to use`, it is usually managed and maintained with a package management system.
+
+Sometimes word Package is alternatively used in place of Module. Package/Module is nothing but a single or bunch of reusable code file(s) wrapped together with a special file named `Package.json`
+
+- **What is a Package?**
+ - A Packages contains all the files which are needed for a module(s)
+- **What is a Module(s)?**
+ - Module(s) are the JavaScript libraries that can be included in Node projects as per the requirement
+
+### **2.2.2. Package Management System**
+---------------------
+
+- Software that automates installing and updating packages as and when required
+- Package Management System Software deals with what version developer/user needs, and it also manages dependencies
+
+### **2.2.3. Dependencies**
+---------------------
+
+- Code/program/Instructions that another set of Code/program depends on to function (Like We use particuler set of code in our app, it is a dependency - our app depends on it. It may be possible that current code depends on some other code and have some other dependencies)
 
 
