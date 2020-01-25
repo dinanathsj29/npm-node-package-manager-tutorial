@@ -170,9 +170,9 @@ The package is nothing but just a `collection of code ready to use`, it is usual
 Sometimes word Package is alternatively used in place of Module. Package/Module is nothing but a single or bunch of reusable code file(s) wrapped together with a special file named `Package.json`
 
 - **What is a Package?**
- - A Packages contains all the files which are needed for a module(s)
+  - A Packages contains all the files which are needed for a module(s)
 - **What is a Module(s)?**
- - Module(s) are the JavaScript libraries that can be included in Node projects as per the requirement
+  - Module(s) are the JavaScript libraries that can be included in Node projects as per the requirement
 
 ### **2.2.2. Package Management System**
 ---------------------
