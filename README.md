@@ -67,6 +67,7 @@ Topics included/covered
     - 1.1. [What is Node-Nodejs](#11-what-is-node-nodejs)
     - 1.2. [Why Node](#12-why-node)
     - 1.3. [What Node can do?](#13-what-node-can-do)
+    - 1.4. [Installing Node/NPM](#14-installing-node)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -108,4 +109,26 @@ Node/Nodejs can perform/do the following important things:
 - Can Create, Open, Read, Write, Delete files on the server
 - Collect Form Data
 - Can perform CRUD (Create-Add, Read, Update-Edit/Modify, Delete) operation in Database
+
+1.4. Installing Node
+---------------------
+1.4. Installing Node/NPM
+---------------------
+1.4. Install/Setup Node/NPM
+---------------------
+
+In this section, we will learn how to set up a local development environment by installing Node/NPM:
+
+1. Download and Install latest node (node comes with npm) (website: https://nodejs.org/en)
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/1.4.1-nodejs-website.png" alt="nodejs website" title="nodejs website" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - Nodejs website - https://nodejs.org/en</figcaption>
+ </figure>
+</p>
+
+2. After installation check installed version of node and npm or verify installation by using command: 
+- `node -v` / `node --version` 
+OR 
+- `npm -v` / `npm --version`
 
