@@ -72,8 +72,11 @@ Topics included/covered
     - 1.4. [Installing Node/NPM](#14-installing-node)
 
 2. [Introduction to NPM](#2-introduction-to-npm)
-    - 2.1. [What is NPM ](#21-what-is-npm)
+    - 2.1. [What is NPM](#21-what-is-npm)
     - 2.2. [Package Manager/Module Manager](#22-package-manager-module-manager) | [Package Management System](#22-package-management-system)
+      - 2.2.1. [Package-Module](#221-package-module)
+      - 2.2.2. [Package Management System](#222-package-management-system)
+      - 2.2.3. [Dependencies](#223-dependencies)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -163,7 +166,7 @@ OR
 2.2. Package Management System
 ---------------------
 
-### **2.2.1. Package**
+### **2.2.1. Package-Module**
 ---------------------
 The package is nothing but just a `collection of code ready to use`, it is usually managed and maintained with a package management system.
 
