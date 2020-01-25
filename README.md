@@ -77,6 +77,7 @@ Topics included/covered
       - 2.2.1. [Package-Module](#221-package-module)
       - 2.2.2. [Package Management System](#222-package-management-system)
       - 2.2.3. [Dependencies](#223-dependencies)
+    - 2.3. [NPM Role-functionality](#23-npm-role-functionality)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -188,4 +189,20 @@ Sometimes word Package is alternatively used in place of Module. Package/Module 
 
 - Code/program/Instructions that another set of Code/program depends on to function (Like We use particuler set of code in our app, it is a dependency - our app depends on it. It may be possible that current code depends on some other code and have some other dependencies)
 
+2.3. NPM Role-functionality
+---------------------
+
+- It provides an online repository for Node/NodeJs Packages/modules/utilities which we can easily search at
+  - (website: https://www.npmjs.com/) 
+- It equips/provides a CLI (Command Line Interface) utility to install Node/NodeJs Packages
+  - CLI helps/allows the developers to interact with their systems locally also perform version management and dependency management for Node/NodeJs Packages
+- NPM allows/helps developers to publish their solution(s) code/package/module into NPM Registry so that other developers facing the same issue can re-use the code by installing the required NPM package/module
+- NPM is a way to share code with other developers worldwide, also re-use the code of other developer and easily manage different version of the code base
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/2.3.1-npmjs-website.png" alt="npmjs website" title="npmjs website" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - Npmjs website - https://www.npmjs.com/ </figcaption>
+ </figure>
+</p>
 
