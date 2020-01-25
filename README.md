@@ -73,7 +73,7 @@ Topics included/covered
 
 2. [Introduction to NPM](#2-introduction-to-npm)
     - 2.1. [What is NPM ](#21-what-is-npm)
-    - 2.2. [Package Manager/Module Manager](#22-package-manager/module-manager) | [Package Management System](#22-package-management-system)
+    - 2.2. [Package Manager/Module Manager](#22-package-manager-module-manager) | [Package Management System](#22-package-management-system)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -158,7 +158,7 @@ OR
 - Now a days NPM is a very popular/well-known term among the Web Development community. NPM is a package manager for Node/JavaScript packages or modules
 - Developed by `Isaac Z. Schlueter`, initially released in `Jan-2010`
 
-2.2. Package Manager/Module Manager
+2.2. Package Manager Module Manager
 ---------------------
 2.2. Package Management System
 ---------------------
