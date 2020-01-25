@@ -140,12 +140,12 @@ OR
 2 Introduction to NPM
 =====================
 
+2.1. What is NPM
+---------------------
+
 <p align="center">
  <img src="_images-npm-node-package-manager/3-node-npm-logo-3.png" alt="NPM - Node Package Manager" title="NPM - Node Package Manager" width="125" align="right" />
 </p>
-
-2.1. What is NPM
----------------------
 
 - NPM stands for `Node Package Manager `
 - It is responsible for managing all the Node.js packages/dependencies and modules present in an application
