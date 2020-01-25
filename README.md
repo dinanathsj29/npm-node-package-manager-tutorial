@@ -128,7 +128,7 @@ In this section, we will learn how to set up a local development environment by 
 </p>
 
 2. After installation check installed version of node and npm or verify installation by using command: 
-- `node -v` / `node --version` 
+- To get/check version of node, command: `node -v` / `node --version` 
 OR 
-- `npm -v` / `npm --version`
+- To get/check version of npm, command: `npm -v` / `npm --version`
 
