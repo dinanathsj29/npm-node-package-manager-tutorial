@@ -59,3 +59,31 @@ Prerequisites for current course / What you need to know
 - Basics of JavaScript will be an added advantage
 - How to use a text editor such as Notepad++, Sublime Text and/or IDE like Visual Studio Code 
 - How to use Command Line Tool, Terminal, Command Prompt to type a basic commands
+
+Topics included/covered
+=====================
+
+1. [Introduction to Node-Nodejs](#1-introduction-to-node-nodejs)
+    - 1.1. [What is Node-Nodejs](#11-what-is-node-nodejs)
+
+1 Introduction to Node-Nodejs
+=====================
+
+1.1. What is Node-Nodejs
+---------------------
+
+<p align="center">
+ <img src="_images-npm-node-package-manager/4-node-logo-1.png" alt="Node/Nodejs" title="Node/Nodejs" width="125" align="right" />
+</p>
+
+- Node is a cross-platform, open-source runtime environment for executing JavaScript outside the browser i.e. at the server. We often use Node to build back-end services ie. API (Application Programming Interface)
+- Node is ideally used to build Highly-scalable, data-intensive, real-time back-end services bases applications
+- Nodejs is one of the most powerful and popular server technology. Google Chrome's V8 JavaScript engine is the core of Nodejs
+- Node/Nodejs is open source server environment, it uses JavaScript on server
+- Nodejs is a JavaScript runtime/code built on Google Chromes V8 javascript runtime engine. The V8 engine is written in C++ language which takes node(javascript) code and quickly compile/convert to machine code
+- Nodejs can be defined/described with the following important terms:
+  - Asynchronous
+  - Non-blocking
+  - Event-Based
+  - Single thread
+ 
