@@ -66,6 +66,7 @@ Topics included/covered
 1. [Introduction to Node-Nodejs](#1-introduction-to-node-nodejs)
     - 1.1. [What is Node-Nodejs](#11-what-is-node-nodejs)
     - 1.2. [Why Node](#12-why-node)
+    - 1.3. [What Node can do?](#13-what-node-can-do)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -98,4 +99,13 @@ Topics included/covered
 - Cleaner and more consistent codebase/source code
 - The largest ecosystem of open-source libraries
 - Great open-source community support
+
+1.3. What Node can do
+---------------------
+
+Node/Nodejs can perform/do the following important things:
+- Generate Dynamic page content
+- Can Create, Open, Read, Write, Delete files on the server
+- Collect Form Data
+- Can perform CRUD (Create-Add, Read, Update-Edit/Modify, Delete) operation in Database
 
