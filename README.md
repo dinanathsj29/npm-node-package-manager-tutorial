@@ -199,6 +199,13 @@ Sometimes word Package is alternatively used in place of Module. Package/Module 
   - CLI helps/allows the developers to interact with their systems locally also perform version management and dependency management for Node/NodeJs Packages
 - NPM allows/helps developers to publish their solution(s) code/package/module into NPM Registry so that other developers facing the same issue can re-use the code by installing the required NPM package/module
 - NPM is a way to share code with other developers worldwide, also re-use the code of other developer and easily manage different version of the code base
+- Helps to incorporate the pre-built packages into the project
+- Assists in downloading various stand-alone tools which can be used any time/right away (adapting any packages as and when the need arises )
+- With `npx` we can run and use packages without downloading it
+- Developers can share their code with other worldwide NPM users/developers 
+- It helps in restricting the code to the specific or particular group of developers (forming virtual team using orgs/organizations)
+- Helps in managing and maintaining various versions of codes and their dependencies
+- NPM automatically updates the application with the update in the codes
 
 <p>
  <figure>
