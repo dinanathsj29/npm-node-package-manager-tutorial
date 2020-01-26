@@ -78,6 +78,7 @@ Topics included/covered
       - 2.2.2. [Package Management System](#222-package-management-system)
       - 2.2.3. [Dependencies](#223-dependencies)
     - 2.3. [NPM Role-functionality](#23-npm-role-functionality)
+    - 2.4. [Advantages of NPM](#24-advantages-of-npm)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -206,3 +207,13 @@ Sometimes word Package is alternatively used in place of Module. Package/Module 
  </figure>
 </p>
 
+2.4. Advantages of NPM
+---------------------
+
+- Completely free and open source
+- Simpler than SOAP (Simple Object Access Protocol)
+- Default package manager of Nodejs
+- World's largest software registry (The largest ecosystem of open-source libraries) 
+- Fully developed in JavaScript
+- Manage local and global dependencies of project/application/tool
+- An easy and fast CLI (Command Line Interface) utility to install packages/modules/solutions
