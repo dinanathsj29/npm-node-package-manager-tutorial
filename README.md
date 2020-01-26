@@ -80,6 +80,9 @@ Topics included/covered
     - 2.3. [NPM Role-functionality](#23-npm-role-functionality)
     - 2.4. [Advantages of NPM](#24-advantages-of-npm)
 
+3. [Getting started with NPM](#3-getting-started-with-npm)
+    - 3.1. [Installing NPM](#31-installing-npm)
+
 1 Introduction to Node-Nodejs
 =====================
 
@@ -130,7 +133,14 @@ Node/Nodejs can perform/do the following important things:
 
 In this section, we will learn how to set up a local development environment by installing Node/NPM:
 
-1. Download and Install latest node (node comes with npm) (website: https://nodejs.org/en)
+- NPM bundled and shift with Nodejs. In order to have NPM on our machine, we just need to download and install Node
+- NPM is pre-built with Node/Nodejs so it gets installed automatically - no need to install it separately
+
+1. To verify node/npm available/installed on machine, type command:
+    - `node -v` / `node --version` 
+    - `npm -v` / `npm --version`
+2. If Node not available on machine than download and Install latest nodejs installer as per your OS, and continue installation (website: https://nodejs.org/en)
+ - One can install LTS (Long Term Support) verion or current latest version anything is fine
 <p>
  <figure>
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/1.4.1-nodejs-website.png" alt="nodejs website" title="nodejs website" width="1000" border="2" />
@@ -138,10 +148,10 @@ In this section, we will learn how to set up a local development environment by 
  </figure>
 </p>
 
-2. After installation check installed version of node and npm or verify installation by using command: 
-- To get/check version of node, command: `node -v` / `node --version` 
-OR 
-- To get/check version of npm, command: `npm -v` / `npm --version`
+3. After installation, check installed version of node and npm or verify installation by using command: 
+    - To get/check version of node, command: `node -v` / `node --version` 
+    OR 
+    - To get/check version of npm, command: `npm -v` / `npm --version`
 
 2 Introduction to NPM
 =====================
@@ -224,3 +234,33 @@ Sometimes word Package is alternatively used in place of Module. Package/Module 
 - Fully developed in JavaScript
 - Manage local and global dependencies of project/application/tool
 - An easy and fast CLI (Command Line Interface) utility to install packages/modules/solutions
+
+3 Getting started with NPM
+=====================
+
+3.1. Installing NPM
+---------------------
+3.1. Install/Setup NPM
+---------------------
+
+In this section, we will learn how to set up a local development environment by installing NPM:
+
+- NPM bundled and shift with Nodejs. In order to have NPM on our machine, we just need to download and install Node
+- NPM is pre-built with Node/Nodejs so it gets installed automatically - no need to install it separately
+
+1. To verify node/npm available/installed on machine, type command:
+    - `node -v` / `node --version` 
+    - `npm -v` / `npm --version`
+2. If Node not available on machine than download and Install latest nodejs installer as per your OS, and continue installation (website: https://nodejs.org/en)
+ - One can install LTS (Long Term Support) verion or current latest version anything is fine
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/1.4.1-nodejs-website.png" alt="nodejs website" title="nodejs website" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - Nodejs website - https://nodejs.org/en</figcaption>
+ </figure>
+</p>
+
+3. After installation, check installed version of node and npm or verify installation by using command: 
+    - To get/check version of node, command: `node -v` / `node --version` 
+    OR 
+    - To get/check version of npm, command: `npm -v` / `npm --version`
