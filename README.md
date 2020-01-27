@@ -83,7 +83,7 @@ Topics included/covered
 3. [Getting started with NPM](#3-getting-started-with-npm)
     - 3.1. [Installing NPM](#31-installing-npm)
     - 3.2. [NPM Help](#32-npm-help) | [Getting NPM Help](#32-getting-npm-help)
-    - 3.3. [Package.json init](#33-package.json-init)
+    - 3.3. [Package json init](#33-package-json-init)
       - 3.3.1. [package json](#331-package-json) 
       - 3.3.2. [package-lock json](#332-package-lock-json)
       - 3.3.3. [package json benefits](#333-package-json-benefits)
@@ -312,7 +312,7 @@ In this section, we will learn how to set up a local development environment by 
  </figure>
 </p>
 
-3.3. Package.json init
+3.3. Package json init
 ---------------------
 
 ### **3.3.1. package json**
