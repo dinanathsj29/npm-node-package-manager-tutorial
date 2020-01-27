@@ -333,6 +333,20 @@ In this section, we will learn how to set up a local development environment by 
 - command: `npm init -y` OR `npm init --yes` (the `-y` or `--yes` flag take default answers of questions and create a package.json file directly)
   - `-y` OR `--yes` flag skips all questions and creates package.json with default values
 
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.1-package-json-basic.png" alt="Package.json with npm init" title="Package.json with npm init" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.1 - Package.json with npm init </figcaption>
+ </figure>
+</p>
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.2-package-json-source-file.png" alt="Package.json" title="Package.json" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.1 - Package.json </figcaption>
+ </figure>
+</p>
+
 Each package or dependencies have proper/meaningful version - let us learn about `SemVer or Semantic Versioning` [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) now!
 
 ### **3.3.2. package-lock json**
@@ -349,7 +363,7 @@ Package.json files provide the following benefits:
 - Manage dependencies of project/application
   - Any package and its version (popular npm packages are: nodemon, express, lodash, moment, etc.)
 - Scripts section: (Helps to write initial build scripts for project/application)
-  - Commands/Process/Steps to run initially/by dafault
+  - Commands/Process/Steps to run initially/by default
   
 ### **3.3.4. Basic-Common Project File Folder Structure-Architecture**
 ---------------------
