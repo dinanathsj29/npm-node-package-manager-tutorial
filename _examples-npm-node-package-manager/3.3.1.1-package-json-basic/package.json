@@ -1,0 +1,17 @@
+{
+  "name": "learning-package-json",
+  "version": "1.0.0",
+  "description": "Introduction to package.json with creation by using \"npm init\" command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package",
+    "init",
+    "learning",
+    "npm"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "MIT"
+}
