@@ -140,7 +140,7 @@ In this section, we will learn how to set up a local development environment by 
     - `node -v` / `node --version` 
     - `npm -v` / `npm --version`
 2. If Node not available on machine than download and Install latest nodejs installer as per your OS, and continue installation (website: https://nodejs.org/en)
- - One can install LTS (Long Term Support) verion or current latest version anything is fine
+    - One can install LTS (Long Term Support) verion or current latest version anything is fine
 <p>
  <figure>
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/1.4.1-nodejs-website.png" alt="nodejs website" title="nodejs website" width="1000" border="2" />
@@ -252,7 +252,7 @@ In this section, we will learn how to set up a local development environment by 
     - `node -v` / `node --version` 
     - `npm -v` / `npm --version`
 2. If Node not available on machine than download and Install latest nodejs installer as per your OS, and continue installation (website: https://nodejs.org/en)
- - One can install LTS (Long Term Support) verion or current latest version anything is fine
+    - One can install LTS (Long Term Support) verion or current latest version anything is fine
 <p>
  <figure>
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/1.4.1-nodejs-website.png" alt="nodejs website" title="nodejs website" width="1000" border="2" />
@@ -264,3 +264,14 @@ In this section, we will learn how to set up a local development environment by 
     - To get/check version of node, command: `node -v` / `node --version` 
     OR 
     - To get/check version of npm, command: `npm -v` / `npm --version`
+
+4. To install specific npm version command: 
+    - Syntax: `npm install -g npm@version_number`   (`-g` flag is to install globally)
+    - Command: `npm install -g npm@x.x.x`,  `npm install -g npm@8.2.1`
+
+5. If any permission error occurs:
+    - MacOS
+      - Run any node/npm commands as `sudo` or `administrator`, command: `sudo npm install -g` or `sudo npm i -g`
+
+    - Windows
+      - Open Command Prompt/Terminal Window with Administrative privileges, Right Click on Terminal (Windows Command Prompt) Icon/Programm -> Choose Run As Administrator
