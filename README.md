@@ -340,6 +340,28 @@ In this section, we will learn how to set up a local development environment by 
  </figure>
 </p>
 
+> **Syntax & Example**: `3.3.1.1-package-json-basic/package.json`
+
+```json
+{
+  "name": "learning-package-json",
+  "version": "1.0.0",
+  "description": "Introduction to package.json with creation by using \"npm init\" command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package",
+    "init",
+    "learning",
+    "npm"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "MIT"
+}
+```
+
 <p>
  <figure>
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.2-package-json-source-file.png" alt="Package.json" title="Package.json" width="1000" border="2" />
@@ -355,6 +377,23 @@ In this section, we will learn how to set up a local development environment by 
  <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.3 - Package.json with npm init -y </figcaption>
  </figure>
 </p>
+
+> **Syntax & Example**: `3.3.1.3-package-json-yes/package.json`
+
+```json
+{
+  "name": "3.3.1.3-package-json-yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```
 
 <p>
  <figure>
