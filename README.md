@@ -322,12 +322,12 @@ In this section, we will learn how to set up a local development environment by 
 - It is present in the `root directory` of any Node/Angular/React or similar application and/or `node_modules` folder, used to define/contains properties of a package (metadata specific to the project)
 - If we want to create a public package/module or many peoples working on the same distributed project/package/module then its advisable to create a package.json file at the root of the project
 - One can create package.json file with different ways like: 
- - manually 
- - through node/npm command: `npm init`,
- - with yarn command: `yarn init`
+  - manually 
+  - through node/npm command: `npm init`,
+  - with yarn command: `yarn init`
 - To create package.json file use npm command: `npm init` and answer basics questions related to the application like application name, version, author, license details, project/application description, dependencies, etc.
- - command: `npm init` - initialize the project and create a package.json file
+  - command: `npm init` - initialize the project and create a package.json file
 - command: `npm init -y` OR `npm init --yes` (the `-y` or `--yes` flag take default answers of questions and create a package.json file directly)
- - `-y` OR `--yes` flag skips all questions and creates package.json with default values
+  - `-y` OR `--yes` flag skips all questions and creates package.json with default values
 
-Each package or dependencies have proper/meaningful version - let us learn about `SemVer or Semantic Versioning` now!
+Each package or dependencies have proper/meaningful version - let us learn about `SemVer or Semantic Versioning` [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) now!
