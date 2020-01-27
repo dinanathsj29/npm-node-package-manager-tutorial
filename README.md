@@ -82,6 +82,7 @@ Topics included/covered
 
 3. [Getting started with NPM](#3-getting-started-with-npm)
     - 3.1. [Installing NPM](#31-installing-npm)
+    - 3.2. [NPM Help](#32-npm-help) | [Getting NPM Help](#32-getting-npm-help)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -278,3 +279,30 @@ In this section, we will learn how to set up a local development environment by 
     - Windows
       - Open Command Prompt/Terminal Window with Administrative privileges, Right Click on Terminal (Windows Command Prompt) Icon/Programm -> Choose Run As Administrator
 
+3.2. NPM Help
+---------------------
+3.2. Getting NPM Help
+---------------------
+
+- Getting/Using help with Node/NPM is pretty simple, generally `-h` or `-help` or `--help` flag is used to get/show help about npm or any other npm command
+- Syntax: Get NPM help: `npm -h` OR `npm -help` OR `npm --help`
+- Syntax: Get any NPM command help: `npm <command_name> -h` OR `npm <command_name> -help` OR `npm <command_name> --help`
+- `npm -h` OR `npm -help` OR `npm --help` command shows typical usage of NPM and various sub-flag/options available to use
+- Example: To get npm help: `npm -h` OR `npm -help` OR `npm --help`
+- Example: To get help of install command: `npm install -h` OR `npm install -help` OR `npm install --help`
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.2.1-npm-help.png" alt="Getting npm help with npm -h" title="Getting npm help with npm -h" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.2.1 - Getting npm help with npm -h </figcaption>
+ </figure>
+</p>
+
+<hr/>
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.2.2-npm-help-specific-command.png" alt="Getting npm help for specific command | npm install -h" title="Getting npm help for specific command | npm install -h" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.2.2 - Getting npm help for specific command | npm install -h </figcaption>
+ </figure>
+</p>
