@@ -242,6 +242,8 @@ Sometimes word Package is alternatively used in place of Module. Package/Module 
 ---------------------
 3.1. Install/Setup NPM
 ---------------------
+3.1. Getting/Downloading/Installing/Setting up NPM
+---------------------
 
 In this section, we will learn how to set up a local development environment by installing NPM:
 
@@ -275,3 +277,4 @@ In this section, we will learn how to set up a local development environment by 
 
     - Windows
       - Open Command Prompt/Terminal Window with Administrative privileges, Right Click on Terminal (Windows Command Prompt) Icon/Programm -> Choose Run As Administrator
+
