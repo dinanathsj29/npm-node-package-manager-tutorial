@@ -87,6 +87,7 @@ Topics included/covered
       - 3.3.1. [package json](#331-package-json) 
       - 3.3.2. [package-lock json](#332-package-lock-json)
       - 3.3.3. [package json benefits](#333-package-json-benefits)
+      - 3.3.4. [Basic-Common Project File Folder Structure-Architecture](#334-basic-common-project-file-folder-structure-architecture)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -350,3 +351,13 @@ Package.json files provide the following benefits:
 - Scripts section: (Helps to write initial build scripts for project/application)
   - Commands/Process/Steps to run initially/by dafault
   
+### **3.3.4. Basic-Common Project File Folder Structure-Architecture**
+---------------------
+
+| **Files/Folders**                   | **Description**                           |
+| ------------------------------------------|-------------------------------------------|
+| `**Folders:** `                           |                                           |
+| node_modules                              | The packages specified in `package.json` file are installed into this folder (`node_modules`) when we `run npm install` command. Also provides `npm packages/dependencies` to the entire workspace/projects (`node_modules` folder consists of all installed packages mentioned in package.json) |
+| `**Files:** `                             |  |
+| package.json                              | Contains the packages to build and run our angular application, consists of Node/NPM library/package/module dependencies for application development. Custom script can also be added in as per requirements <br/><br/> **It contains two sets of packages:** <br/>1. **dependencies**: The dependencies are essential for running the application, and <br/>2. **devDependencies**: The devDependencies are only required to develop the application <br/><br/>These packages mentioned in `package.json`  are installed into the `node_modules` folder by the `Node Package Manager (npm)`, when `npm install` command is executed.<br/><br/>`"scripts"` property contains the useful and important `npm commands` needed to run/serve project |
+| package-lock.json                         | Provides version information for all packages installed into node_modules by the npm client  |
