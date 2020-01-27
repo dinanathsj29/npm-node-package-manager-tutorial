@@ -89,6 +89,7 @@ Topics included/covered
       - 3.3.3. [package json benefits](#333-package-json-benefits)
       - 3.3.4. [Basic-Common Project File Folder Structure-Architecture](#334-basic-common-project-file-folder-structure-architecture)
     - 3.4. [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) | [Semantic Versioning System](#34-semantic-versioning-system)
+    - 3.5. [package json Defaults](#35-package-json-defaults) | [package json Default values](#35-package-json-default-values) 
     
 1 Introduction to Node-Nodejs
 =====================
@@ -461,5 +462,52 @@ Package.json files provide the following benefits:
 
   - `~ tilde/tilda` sign = upgrade if change in Patch version like 1.0.x
 
-> **`website`**: semver.org | https://semver.org/
+> **website**: semver.org | https://semver.org/
 
+3.5. package json Defaults
+---------------------
+3.5. package json Default values
+---------------------
+
+- To set desired default values in package.json
+  - command `npm config set init-author-name "Dinanath Jayaswal"`
+  - OR `npm set init-license "MIT"`
+
+- To get default values of package.json
+  - command `npm config get init-author-name`
+  - OR `npm get init-license`
+
+- To unset any default values set in package.json
+  - command `npm config delete init-author-name`
+  - OR `npm delete init-license`
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.5.1-package-json-command-set-get-default-values.png" alt="Package.json set get default values" title="Package.json set get default values" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.5.1 - Package.json set get default values </figcaption>
+ </figure>
+</p>
+
+> **Syntax & Example**: `3.5-package-json-set-default-values/package.json`
+
+```json
+{
+  "name": "3.5-package-json-set-default-values",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dinanath Jayaswal",
+  "license": "ISC"
+}
+```
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.5.2-package-json-set-default-values.png" alt="Package.json with default values set" title="Package.json with default values set" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.5.2 - Package.json with default values set </figcaption>
+ </figure>
+</p>
