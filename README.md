@@ -83,6 +83,8 @@ Topics included/covered
 3. [Getting started with NPM](#3-getting-started-with-npm)
     - 3.1. [Installing NPM](#31-installing-npm)
     - 3.2. [NPM Help](#32-npm-help) | [Getting NPM Help](#32-getting-npm-help)
+    - 3.3. [Package.json init](#33-package.json-init)
+      - 3.3.1. [package.json](#331-package.json) 
 
 1 Introduction to Node-Nodejs
 =====================
@@ -306,3 +308,26 @@ In this section, we will learn how to set up a local development environment by 
  <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.2.2 - Getting npm help for specific command | npm install -h </figcaption>
  </figure>
 </p>
+
+3.3. Package.json init
+---------------------
+
+### **3.3.1. package.json**
+---------------------
+
+`Package.json` is an important file for any Node or similar applications, let learn and understand some facts about it:
+
+- For any Node application, the `package.json` file is the heart or main file of the entire application
+- `package.json` file is basically the entry point or `manifest file` that contains the generic `metadata`/information about Node application-project in the form of (application name, version, author, license, dependencies, etc.) of the project
+- It is present in the `root directory` of any Node/Angular/React or similar application and/or `node_modules` folder, used to define/contains properties of a package (metadata specific to the project)
+- If we want to create a public package/module or many peoples working on the same distributed project/package/module then its advisable to create a package.json file at the root of the project
+- One can create package.json file with different ways like: 
+ - manually 
+ - through node/npm command: `npm init`,
+ - with yarn command: `yarn init`
+- To create package.json file use npm command: `npm init` and answer basics questions related to the application like application name, version, author, license details, project/application description, dependencies, etc.
+ - command: `npm init` - initialize the project and create a package.json file
+- command: `npm init -y` OR `npm init --yes` (the `-y` or `--yes` flag take default answers of questions and create a package.json file directly)
+ - `-y` OR `--yes` flag skips all questions and creates package.json with default values
+
+Each package or dependencies have proper/meaningful version - let us learn about `SemVer or Semantic Versioning` now!
