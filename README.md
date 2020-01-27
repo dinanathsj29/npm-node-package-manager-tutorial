@@ -343,7 +343,23 @@ In this section, we will learn how to set up a local development environment by 
 <p>
  <figure>
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.2-package-json-source-file.png" alt="Package.json" title="Package.json" width="1000" border="2" />
- <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.1 - Package.json </figcaption>
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.2 - Package.json </figcaption>
+ </figure>
+</p>
+
+<hr/>
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.3-package-json-yes.png" alt="Package.json with npm init -y" title="Package.json with npm init -y" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.3 - Package.json with npm init -y </figcaption>
+ </figure>
+</p>
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.3.1.4-package-json-yes-source-file.png" alt="Package.json with -y flag" title="Package.json with -y flag" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.3.1.4 - Package.json with -y flag </figcaption>
  </figure>
 </p>
 
