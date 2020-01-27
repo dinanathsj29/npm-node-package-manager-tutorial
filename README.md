@@ -88,7 +88,8 @@ Topics included/covered
       - 3.3.2. [package-lock json](#332-package-lock-json)
       - 3.3.3. [package json benefits](#333-package-json-benefits)
       - 3.3.4. [Basic-Common Project File Folder Structure-Architecture](#334-basic-common-project-file-folder-structure-architecture)
-
+    - 3.4. [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) | [Semantic Versioning System](#34-semantic-versioning-system)
+    
 1 Introduction to Node-Nodejs
 =====================
 
@@ -430,3 +431,35 @@ Package.json files provide the following benefits:
 | `**Files:** `                             |  |
 | package.json                              | Contains the packages to build and run our angular application, consists of Node/NPM library/package/module dependencies for application development. Custom script can also be added in as per requirements <br/><br/> **It contains two sets of packages:** <br/>1. **dependencies**: The dependencies are essential for running the application, and <br/>2. **devDependencies**: The devDependencies are only required to develop the application <br/><br/>These packages mentioned in `package.json`  are installed into the `node_modules` folder by the `Node Package Manager (npm)`, when `npm install` command is executed.<br/><br/>`"scripts"` property contains the useful and important `npm commands` needed to run/serve project |
 | package-lock.json                         | Provides version information for all packages installed into node_modules by the npm client  |
+
+3.4. SemVer
+---------------------
+3.4. Semantic Versioning 
+---------------------
+3.4. Semantic Versioning System
+---------------------
+
+- Change is nature's thumb rule, so every tool/technology/framework/library developed have to room for improvement
+- **Versioning**:
+  - Specifying what version of a set of code this is
+  - It helps others to track if a new version has come out/released
+  - This allows to watch for a new feature or to watch for `breaking changes` if any
+- **Semantic**:
+  - The word `semantic` implies that something conveys meaning (meaningful)
+  - Semantic versioning follows certain rules while determining the current version number
+  - The core of Semantic versioning system/rule: `MAJOR.MINOR.PATCH 1.0.0`
+- Many Software Development companies worldwide and software giant like Google decided and declared that their frameworks and tools version will be upgraded as per `Semantic Versioning System`
+- **`SemVer or Semantic Versioning or Semantic Versioning System`** has 3 main components as = ` x.x.x i.e. Major.Minor.Fix Patch version/release, example: 0.0.1`
+  - `Fix Patch` - can increase any time with bug fixes/patch release `|` Bug fixes, simple changes `|` Some bugs were fixed and code works fine. `1.0.1`
+
+  - `Minor version` - increases with every feature release which does not break any functionalities `|` Adding/changing new/old feature which does not break existing functionality in application `|` Some new features added and code works fine `1.1.0`
+
+  - `Major version` - Break in the functionalities, extraordinary feature achievements `|` Totally new/fresh features which extra ordinary breaking changes `|` Big changes & new functionalities added and code works fine `2.0.0` 
+
+- SemVer or Semantic Versioning symbols:
+  - `^ caret` sign = upgrade if change in Minor/Patch version like 1.x.x
+
+  - `~ tilde/tilda` sign = upgrade if change in Patch version like 1.0.x
+
+> **`website`**: semver.org | https://semver.org/
+
