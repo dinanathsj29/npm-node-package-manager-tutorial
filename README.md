@@ -85,6 +85,7 @@ Topics included/covered
     - 3.2. [NPM Help](#32-npm-help) | [Getting NPM Help](#32-getting-npm-help)
     - 3.3. [Package.json init](#33-package.json-init)
       - 3.3.1. [package.json](#331-package.json) 
+      - 3.3.2. [package-lock.json](#332-package-lock.json)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -331,3 +332,8 @@ In this section, we will learn how to set up a local development environment by 
   - `-y` OR `--yes` flag skips all questions and creates package.json with default values
 
 Each package or dependencies have proper/meaningful version - let us learn about `SemVer or Semantic Versioning` [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) now!
+
+### **3.3.2. package-lock.json**
+---------------------
+
+- package-lock.json is automatically generated for any operations where npm modifies `node_modules` or `package.json`
