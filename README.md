@@ -93,7 +93,7 @@ Topics included/covered
 
 4. [Installation of the NPM packages](#4-installation-of-the-npm-packages) | [Dealing with NPM packages NPM Registry](#4-dealing-with-npm-packages-npm-registry)
     - 4.1. [Popular famous NPM Packages](#41-popular-famous-npm-packages)
-    
+    - 4.2. [More on NPM Packages](#42-more-on-npm-packages) | [Local and Global Packages](#42-local-and-global-packages)
     
 1 Introduction to Node-Nodejs
 =====================
@@ -552,3 +552,37 @@ Here is the list of various commonly used, popular and famous npm packages avail
     <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.4.1 - Popular Famous NPM Packages: Moment </figcaption>
   </figure>
 </p>
+
+4.2. More on NPM Packages
+---------------------
+4.2. Local and Global Packages
+---------------------
+
+The package is nothing but just a `collection of code ready to use`, it is usually managed and maintained with a package management system.
+
+Sometimes word Package is alternatively used in place of Module. Package/Module is nothing but a single or bunch of reusable code file(s) wrapped together with a special file named `Package.json`.
+
+Packages are categorized under `two different categories` depending on their mode of installation done by developer:
+
+1. Local Packages
+2. Global Packages
+
+### 1. Local Packages
+
+- Local Packages are `installed within the current project/application directory` where one will be executing the `npm install` command and will be accessible by `only current project/application`.
+- If any package required or makes sense `only to a specific project/application` than it is advisable to install the package locally in the current project folder.
+
+> **Syntax**: `npm install <package_name>` OR `npm i <package_name>`
+
+> **Example**: `npm install moment`
+
+### 2. Global Packages
+
+- Global Packages are installed at a single/central place (`path environment variables`) in your system and they can be used by `any of the projects present in your system`
+- Some packages are commonly used in multiple angular/node projects/application in such scenarios its advisable to install those packages globally so that its available under `path environment variables`
+- Globally installed dependencies are not part of/not residing in `package.json` and/or `node_modules`
+- We can use the `-g` flag to install the package globally
+
+> **Syntax**: `npm install <package_name> -g` OR `npm i <package_name> -g`
+
+> **Example**: `npm install moment -g`
