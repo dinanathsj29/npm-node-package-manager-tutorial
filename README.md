@@ -90,6 +90,10 @@ Topics included/covered
       - 3.3.4. [Basic-Common Project File Folder Structure-Architecture](#334-basic-common-project-file-folder-structure-architecture)
     - 3.4. [SemVer](#34-semver) | [Semantic Versioning](#34-semantic-versioning) | [Semantic Versioning System](#34-semantic-versioning-system)
     - 3.5. [package json Defaults](#35-package-json-defaults) | [package json Default values](#35-package-json-default-values) 
+
+4. [Installation of the NPM packages](#4-installation-of-the-npm-packages) | [Dealing with NPM packages NPM Registry](#4-dealing-with-npm-packages-npm-registry)
+    - 4.1. [Popular famous NPM Packages](#41-popular-famous-npm-packages)
+    
     
 1 Introduction to Node-Nodejs
 =====================
@@ -510,4 +514,41 @@ Package.json files provide the following benefits:
  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/3.5.2-package-json-set-default-values.png" alt="Package.json with default values set" title="Package.json with default values set" width="1000" border="2" />
  <figcaption>&nbsp;&nbsp;&nbsp; Image - 3.5.2 - Package.json with default values set </figcaption>
  </figure>
+</p>
+
+4 Installation of the NPM packages
+=====================
+4 Dealing with NPM packages NPM Registry
+=====================
+
+- NPM allows/helps developers to publish their solution(s) code/package/module into `NPM Registry` so that other developers facing the same issue can re-use the code by installing the required NPM package/module
+- All packages live/exist in an online NPM registry
+- One can just visit (website: https://www.npmjs.com/) and simply `search` for required solution/package/module
+
+4.1. Popular famous NPM Packages
+---------------------
+
+- website: https://www.npmjs.com/
+- Search for required packages and install accordingly
+
+Here is the list of various commonly used, popular and famous npm packages available:
+
+| **Package/Module** | **Description** | 
+| --------------------------------|-------------------------------------------|
+| `express ` | HTTP helpers web framework for node <br/> command to install: `npm install express` |
+| `body-parser` | Body parsing middleware |
+| `nodemon` | Utility to monitor any changes in source code and reload the application automatically (restart/reloads application/server if any changes done by the developer). |
+| `babel-core` | Compile/Transpile ES6 code to ES5 code |
+| `lodash` | Makes working with JavaScript easier |
+| `react` | Helps to create ReactJs applications |
+| `request` | Helps in making HTTP calls most easily/most quickly |
+| `async` | Helps to work with async JavaScript applications |
+| `moment` | Parse, validate, manipulate and display dates |
+| `angular/cli` | Generating and serving an Angular project via a development server |
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.1.1-popular-famous-npm-packages-moment.png" alt="Popular Famous NPM Packages: Moment" title="Popular Famous NPM Packages: Moment" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.4.1 - Popular Famous NPM Packages: Moment </figcaption>
+  </figure>
 </p>
