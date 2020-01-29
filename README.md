@@ -96,6 +96,7 @@ Topics included/covered
     - 4.2. [More on NPM Packages](#42-more-on-npm-packages) | [Local and Global Packages](#42-local-and-global-packages)
     - 4.3. [Installing Local Packages](#43-installing-local-packages) | [Installing Node-NPM Package Locally](#43-installing-node-npm-package-locally)
     - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
+    - 4.5. [Installing Global Packages](#45-installing-global-packages)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -737,3 +738,17 @@ Sometimes we need to uninstall some unwanted and deprecated packages from curren
 > **Syntax**: `npm uninstall <pakcage_name> --save-dev` OR `npm un<pakcage_name> --save-dev`
 
 > **Example**: `npm uninstall @angular/cli --save-dev`
+
+4.5. Installing Global Packages
+---------------------
+
+- Global Packages are installed at a single/central place (`path environment variables`) folder in your system and they can be used by `any of the projects present in your system`
+- Some npm packages are commonly used in multiple angular/node projects/applications, in such scenario, it is advisable to install those packages globally so that its available under `path environment variables`
+- Globally installed dependencies are not part of/not residing in `package.json` and/or `node_modules`
+- We can use `-g` flag with `npm install` command to install a package globally
+
+> **Syntax**: `npm install <package_name> -g` OR `npm i <package_name> -g`
+
+> **Example**: `npm install moment -g`
+
+- To get a list of global outdated packages command: `npm outdated -g`
