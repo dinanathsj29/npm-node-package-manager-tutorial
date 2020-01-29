@@ -1,0 +1,25 @@
+{
+  "name": "npm-local-package-installation",
+  "version": "1.0.0",
+  "description": "Learn to install npm packages locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "local",
+    "package",
+    "npm",
+    "install"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^8.3.23"
+  }
+}
