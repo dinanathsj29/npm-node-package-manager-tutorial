@@ -97,6 +97,7 @@ Topics included/covered
     - 4.3. [Installing Local Packages](#43-installing-local-packages) | [Installing Node-NPM Package Locally](#43-installing-node-npm-package-locally)
     - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
     - 4.5. [Installing Global Packages](#45-installing-global-packages)
+    - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -752,3 +753,18 @@ Sometimes we need to uninstall some unwanted and deprecated packages from curren
 > **Example**: `npm install moment -g`
 
 - To get a list of global outdated packages command: `npm outdated -g`
+
+4.6. Uninstalling Global Packages
+---------------------
+
+- To uninstall global packages we can use following command:
+
+> **Syntax**: `npm uninstall <package_name> -g` OR `npm un <package_name> -g`
+
+> **Example**: `npm uninstall moment -g` OR `npm un moment -g`
+
+- NPM `remove` command is also used to uninstall global packages:
+
+> **Syntax**: `npm remove <package_name> -g` OR `npm rm <package_name> -g`
+
+> **Example**: `npm remove moment -g` OR `npm rm moment -g`
