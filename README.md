@@ -99,6 +99,7 @@ Topics included/covered
     - 4.5. [Installing Global Packages](#45-installing-global-packages)
     - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
     - 4.7. [Listing the Installed Packages](#47-listing-the-installed-packages)
+    - 4.8. [Installing from package json](#48-installing-from-package-json) | [Using readymade package json](#48-using-readymade-package-json)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -813,3 +814,16 @@ Sometimes we need to uninstall some unwanted and deprecated packages from curren
  <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.7.1.4 - NPM List Global Depth 0 : npm list --global true --depth 0 </figcaption>
  </figure>
 </p>
+
+4.8. Installing from package json
+---------------------
+4.8. Using readymade package json
+---------------------
+4.8. Setup Project Development environment with existing package json
+---------------------
+
+- Many times other developers share their application metadata and dependencies information in the form of `package.json` which helps to set up the development/project environment
+- It is advisable to share only `package.json` file with other developers/team members or external world (No need to share `node_modules` folder)
+- One can simply run an npm command: `npm install` to download/install all required dependencies locally as mentioned in `package.json` file
+- `npm install` - command is one of the most widely used and common commands of node/npm
+- It first creates `node_modules` folder and installs all the packages with listed dependencies mentioned in package.json
