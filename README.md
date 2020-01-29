@@ -95,6 +95,7 @@ Topics included/covered
     - 4.1. [Popular famous NPM Packages](#41-popular-famous-npm-packages)
     - 4.2. [More on NPM Packages](#42-more-on-npm-packages) | [Local and Global Packages](#42-local-and-global-packages)
     - 4.3. [Installing Local Packages](#43-installing-local-packages) | [Installing Node-NPM Package Locally](#43-installing-node-npm-package-locally)
+    - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -715,3 +716,24 @@ Packages are categorized under `two different categories` depending on their mod
     <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.3.1.6 - Installing local package: folder structure with multiple packages </figcaption>
   </figure>
 </p>
+
+4.4. Uninstalling Local Packages
+---------------------
+
+Sometimes we need to uninstall some unwanted and deprecated packages from current project/application with command `npm uninstall <package_name>`. As and when we uninstall some package, its entry gets deleted from `package.json` file and `node_module` folder.
+
+> **Syntax**: `npm uninstall <package_name>` OR ` npm un <package_name>`
+
+> **Example**: `npm uninstall moment`
+
+- To remove the entry of deleted packages from package.json file (if required)
+
+> **Syntax**: `npm uninstall <pakcage_name> --save` OR `npm un <package_name> --save`
+
+> **Example**: `npm uninstall <pakcage_name> --save`
+
+- Uninstall/delete dev dependencies if any: 
+
+> **Syntax**: `npm uninstall <pakcage_name> --save-dev` OR `npm un<pakcage_name> --save-dev`
+
+> **Example**: `npm uninstall @angular/cli --save-dev`
