@@ -98,6 +98,7 @@ Topics included/covered
     - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
     - 4.5. [Installing Global Packages](#45-installing-global-packages)
     - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
+    - 4.7. [Listing the Installed Packages](#47-listing-the-installed-packages)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -768,3 +769,47 @@ Sometimes we need to uninstall some unwanted and deprecated packages from curren
 > **Syntax**: `npm remove <package_name> -g` OR `npm rm <package_name> -g`
 
 > **Example**: `npm remove moment -g` OR `npm rm moment -g`
+
+4.7. Listing the Installed Packages
+---------------------
+
+- To get the list of dependencies/packages installed in the application, one can have a manually look in `package.json` file or check-in `node_modules` folder but these processes are pretty time consuming, so its advisable to use `npm list` command
+- `npm list` command displays the tree-like structure of packages locally installed
+
+> `npm list`: To get list/tree of all installed dependencies (Tree of main as well as sub dependencies)
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.7.1.1-npm-list.png" alt="NPM List" title="NPM List" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.7.1.1 - NPM List </figcaption>
+ </figure>
+</p>
+
+> `npm list --depth=0` OR `npm list --depth 0`: Get the list of main dependencies only (No sub dependencies)
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.7.1.2-npm-list-depth0-main-dependency.png" alt="NPM List Depth 0 : npm list --depth=0" title="NPM List Depth 0 : npm list --depth=0" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.7.1.2 - NPM List Depth 0 : npm list --depth=0 </figcaption>
+ </figure>
+</p>
+
+> `npm list --depth=1` OR `npm list --depth 1` : Show package with only one ie. 1st level of dependency
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.7.1.3-npm-list-depth1-main-sub-dependency.png" alt="NPM List Depth 1 : npm list --depth=1" title="NPM List Depth 1 : npm list --depth=1" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.7.1.3 - NPM List Depth 1 : npm list --depth=1 </figcaption>
+ </figure>
+</p>
+
+- To get list of global packages:
+
+> `npm list --global true --depth 0`: Show list of Global packages with main dependencies only (No sub dependencies)
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.7.1.4-npm-list-depth0-global.png" alt="NPM List Depth 0 : npm list --global true --depth 0" title="NPM List Depth 0 : npm list --global true --depth 0" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.7.1.4 - NPM List Global Depth 0 : npm list --global true --depth 0 </figcaption>
+ </figure>
+</p>
