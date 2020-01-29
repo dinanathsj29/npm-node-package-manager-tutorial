@@ -596,7 +596,6 @@ Packages are categorized under `two different categories` depending on their mod
 - If any package required or makes sense `only to a specific project/application` than it is advisable to install the package locally in the current project folder
 - At npm official website: https://www.npmjs.com/ we can search for the specifically required package and have all help/detailed information of the package
 - To install any third-party library or npm package in Node application use command: `npm install <package_name>` OR `npm i <package_name>` (it download and install packages also makes/add an entry in package.json file)
-- As per the recent NPM version, whatever npm package we install with command `npm i <package_name>` the `package.json by default take a record/an entry` of the same as dependencies (in old/past version we use to provide `--save` flag-like `npm i <package_name> --save`)
 - All packages/modules and dependencies mentioned in `package.json` get installed under the folder `node_modules`
 
 > **Syntax**: `npm install <package_name>` OR `npm i <package_name>`
@@ -651,12 +650,68 @@ Packages are categorized under `two different categories` depending on their mod
   </figure>
 </p>
 
+<hr/>
+
+- As per the recent NPM version, whatever npm package we install with command `npm i <package_name>` the `package.json by default take a record/an entry` of the same as dependencies (in old/past version we use to provide `--save` flag-like `npm i <package_name> --save`)
 - To save the package/module in a package.json as a dependency for current project, we must have to use following command: 
 > **Syntax**: `npm install <pakcage_name> --save` OR `npm i <pakcage_name> --save`
 
 > **Example**: `npm install moment --save`
 
+<hr/>
+
 - Development or Developer dependency based package must be part of devDependency in package.json (packages needed for develpoment and are not required for production) 
 > **Syntax**: `npm install <pakcage_name> --save-dev` OR `npm i <pakcage_name> --save-dev`
 
-> **Example**: `npm install moment --save-dev`
+> **Example**: `npm install @angular/cli --save-dev`
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.3.1.4-installing-local-packages-save-dev.png" alt="Installing local package: npm install <package_name> --save-dev" title="Installing local package: npm install <package_name> --save-dev" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.3.1.4 - Installing local package: npm install --save-dev <package_name> </figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.3.1.5-installing-local-packages-json-devdependency.png" alt="Installing local package: package.json <package_name> with dev dependency" title="Installing local package: package.json <package_name> with dev dependency" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.3.1.5 - Installing local package: package.json <package_name> with dev dependency </figcaption>
+  </figure>
+</p>
+
+> **Syntax & Example**: `4.3.1-Installing Local Packages-npm-i/package.json`
+
+```json
+{
+  "name": "npm-local-package-installation",
+  "version": "1.0.0",
+  "description": "Learn to install npm packages locally",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "local",
+    "package",
+    "npm",
+    "install"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^8.3.23"
+  }
+}
+```
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.3.1.6-installing-local-packages-npm-i-folder-structure-packages.png" alt="Installing local package: folder structure with multiple packages" title="Installing local package: folder structure with multiple packages" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.3.1.6 - Installing local package: folder structure with multiple packages </figcaption>
+  </figure>
+</p>
