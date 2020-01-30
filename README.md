@@ -95,7 +95,7 @@ Topics included/covered
     - 4.1. [Popular famous NPM Packages](#41-popular-famous-npm-packages)
     - 4.2. [More on NPM Packages](#42-more-on-npm-packages) | [Local and Global Packages](#42-local-and-global-packages)
     - 4.3. [Installing Local Packages](#43-installing-local-packages) | [Installing Node-NPM Package Locally](#43-installing-node-npm-package-locally)
-    - 4.3.1. [Installing Specific Version of a Package](#43*-installing-specific-version-of-a-package)
+    - 4.3.1. [Installing Specific Version of a Package](#431-installing-specific-version-of-a-package)
     - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
     - 4.5. [Installing Global Packages](#45-installing-global-packages)
     - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
