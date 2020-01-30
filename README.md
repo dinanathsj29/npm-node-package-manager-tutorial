@@ -116,6 +116,9 @@ Topics included/covered
     - 6.1. [Application Dependencies](#61-application-dependencies)
     - 6.2. [Dev Dependencies](#62-dev-dependencies)
 
+7. [NPM Packages and Source Control](#7-npm-packages-and-source-control)
+    - 7.1. [Ignore node_modules folder](#71-ignore-node_modules-folder)
+    
 1 Introduction to Node-Nodejs
 =====================
 
@@ -1090,3 +1093,28 @@ Global dependencies: `npm install <package_name> -g`, it is installed in common 
 > **Note:** All dependencies are getting installed under node_modules folder but segregated only in package.json file as `dependencies & devDependencies`. 
 
 Global dependencies: `npm install <package_name> -g`, it is installed in common program files folder `path environment variables`
+
+7 NPM Packages and Source Control
+=====================
+
+- It is advisable not to Share as well as check-in `node_modules` folder in git or any other Version Control System/Revision Control/SCM/SVC/SVN tools
+
+```
+- SCM - Software Configuration Management
+    - SCM - Source Control Management Tool
+- VCS - Version Control System
+- SVC - Software Version Control
+- SVN - Subversion (Software Version)
+```
+
+### **7.1. Ignore node_modules folder** 
+### **How to ignore/exclude node_modules folder with git**
+---------------------
+
+- Create a `.gitignore` file in the local git repository folder
+- List down all the files/folder which we want to ignore while check-in/check-out code 
+
+> `.gitignore`
+```
+node_modules/
+```
