@@ -108,6 +108,7 @@ Topics included/covered
       - 4.9.4. [Updating Saving Dependencies](#494-updating-saving-dependencies) 
       - 4.9.5. [Updating Latest Major release](#495-updating-latest-major-release) 
     - 4.10. [NPM Prune](#410-npm-prune) | [Remove Unused Extraneous Packages](#410-remove-unused-extraneous-packages)
+    - 4.11. [Viewing Registry Info for a Package](#411-viewing-registry-info-for-a-package) | [Package Metadata Details Info](#411-package-metadata-details-info)
 
 5. [Using a Extermal Package](#5-using-a-extermal-package) | [Using a Extermal Third Party Package](#5-using-a-extermal-third-party-package)
 
@@ -943,6 +944,60 @@ The `npm list` command shows up a list of `unused, unwanted, extraneous packages
 
 This command removes such extraneous packages. If a package name is provided, then only packages matching one of the supplied names are removed.
 
+4.11. Viewing Registry Info for a Package
+---------------------
+4.11. Package Metadata Details Info
+---------------------
+
+To learn some npm package or get more detailed information about a package, one is supposed to visit/head over to (website: https://www.npmjs.com/), search for the package, read technical metadata information in the form of (use case, versions, dependencies, etc.) 
+
+The quickest, fastest and advisable way to get metadata details is to use npm commands as given below:
+
+- Get all info/metadata or package.json file of specific/particular `<package_name>` with all dependencies
+
+> **Syntax**: `npm view <package_name>`
+
+> **Example**: `npm view underscore`
+
+- To get the list of only dependencies for `<package_name>`
+
+> **Syntax**: `npm view <package_name> dependencies`
+
+> **Example**: `npm view @angular/cli dependencies`
+
+- To get the released version of a package
+
+> **Syntax**: `npm view <package_name> version`
+
+> **Example**: `npm view underscore version`
+
+- To get the all released versions of a package
+
+> **Syntax**: `npm view <package_name> versions`
+
+> **Example**: `npm view underscore versions`
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.11.1-package-metadata-all-details.png" alt="Package Metadata Details Info" title="Package Metadata Details Info" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.11.1 - Package Metadata Details Info </figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.11.2-package-metadata-dependencies.png" alt="Package Metadata Dependencies Details Info" title="Package Metadata Dependencies Details Info" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.11.2 - Package Metadata Dependencies Details Info </figcaption>
+  </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.11.3-package-metadata-versions.png" alt="Package Metadata Versions Details Info" title="Package Metadata Versions Details Info" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.11.3 - Package Metadata Versions Details Info </figcaption>
+  </figure>
+</p>
+
 5 Using a Extermal Package
 =====================
 5 Using a Extermal Third Party Package
@@ -1035,5 +1090,3 @@ Global dependencies: `npm install <package_name> -g`, it is installed in common 
 > **Note:** All dependencies are getting installed under node_modules folder but segregated only in package.json file as `dependencies & devDependencies`. 
 
 Global dependencies: `npm install <package_name> -g`, it is installed in common program files folder `path environment variables`
-
-
