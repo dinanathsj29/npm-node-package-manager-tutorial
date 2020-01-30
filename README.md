@@ -106,6 +106,8 @@ Topics included/covered
       - 4.9.3. [Updating Global Packages](#493-updating-global-packages) 
       - 4.9.4. [Updating Saving Dependencies](#494-updating-saving-dependencies) 
       - 4.9.5. [Updating Latest Major release](#495-updating-latest-major-release) 
+    - 4.10. [NPM Prune](#410-npm-prune) | [Remove Unused Extraneous Packages](#410-remove-unused-extraneous-packages)
+
 
 1 Introduction to Node-Nodejs
 =====================
@@ -909,3 +911,18 @@ In the actual development world, there might be a newer version of the package/d
 - Once `ncu` installed, run command: `npm-check-updates` OR `ncu` to get the list of all latest updated version of packages
 - Run command: `ncu -u` to upgrade package.json file with latest versions of packages
 - Finally run the command: `npm install` to install all updated packages from package.json
+
+4.10. NPM Prune
+---------------------
+4.10. Remove Unused Extraneous Packages
+---------------------
+
+The `npm list` command shows up a list of `unused, unwanted, extraneous packages` installed just for R&D or testing purposes and also installed by mistake. 
+
+- To remove/delete/uninstall and clean such extraneous/unwanted packages we must need to use command: 
+
+> **Syntax**: `npm prune` OR `npm prune <package_name>`
+
+> **Example**: `npm prune`
+
+This command removes such extraneous packages. If a package name is provided, then only packages matching one of the supplied names are removed.
