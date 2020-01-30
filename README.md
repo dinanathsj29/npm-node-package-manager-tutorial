@@ -100,6 +100,12 @@ Topics included/covered
     - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
     - 4.7. [Listing the Installed Packages](#47-listing-the-installed-packages)
     - 4.8. [Installing from package json](#48-installing-from-package-json) | [Using readymade package json](#48-using-readymade-package-json)
+    - 4.9. [Updating Packages](#49-updating-packages)
+      - 4.9.1. [NPM Outdated](#491-npm-outdated) 
+      - 4.9.2. [Updating Local Packages](#492-updating-local-packages) 
+      - 4.9.3. [Updating Global Packages](#493-updating-global-packages) 
+      - 4.9.4. [Updating Saving Dependencies](#494-updating-saving-dependencies) 
+      - 4.9.5. [Updating Latest Major release](#495-updating-latest-major-release) 
 
 1 Introduction to Node-Nodejs
 =====================
@@ -827,3 +833,79 @@ Sometimes we need to uninstall some unwanted and deprecated packages from curren
 - One can simply run an npm command: `npm install` to download/install all required dependencies locally as mentioned in `package.json` file
 - `npm install` - command is one of the most widely used and common commands of node/npm
 - It first creates `node_modules` folder and installs all the packages with listed dependencies mentioned in package.json
+
+4.9. Updating Packages
+---------------------
+
+It is important to update packages from time to time basis so that we make the best use of new features/utilities that are available/introduced with every release.
+
+In the actual development world, there might be a newer version of the package/dependency with which we are working and installed in the project.
+
+### **4.9.1. NPM Outdated**
+---------------------
+
+- To find out the outdated packages/dependencies and to get the details of current and latest versions in tabular form
+
+> **Syntax**: `npm outdated`
+
+> **Example**: `npm outdated`
+
+<p>
+ <figure>
+ &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/4.9.1-npm-outdated-list.png" alt="NPM outdated list" title="NPM outdated list" width="1000" border="2" />
+ <figcaption>&nbsp;&nbsp;&nbsp; Image - 4.9.1 - NPM outdated list </figcaption>
+ </figure>
+</p>
+
+### **4.9.2. Updating Local Packages**
+---------------------
+
+- To update all packages
+> **Syntax**: `npm update`
+
+> **Example**: `npm update`
+
+- To update specific package
+> **Syntax**: `npm update <package_name>`
+
+> **Example**: `npm update moment`
+
+### **4.9.3. Updating Global Packages**
+---------------------
+
+- To update all global packages
+> **Syntax**: `npm update -g`
+
+> **Example**: `npm update -g`
+ 
+
+- To update specific global package
+> **Syntax**: `npm update <package_name> -g`
+
+> **Example**: `npm update @angular/cli -g`
+
+- To update npm itself
+> **Example**: `npm install npm@latest -g`
+
+### **4.9.4. Updating Saving Dependencies**
+---------------------
+
+- To update and save all dependencies in package.json:
+> **Syntax**: `npm update <package_name> --save`
+
+> **Example**: `npm update moment --save`
+
+- To update and save all dev dependencies in package.json:
+> **Syntax**: `npm update --dev --save-dev`
+
+> **Example**: `npm update --dev --save-dev`
+
+### **4.9.5. Updating Latest Major release**
+---------------------
+
+- **Note:** The command `npm update`, updates packages to the only Minor/Patch release (Usually, we use `^ caret` sign which denotes minor/patch release only)
+- To check and install the latest Major release we can need to use/install another npm package named `npm-check-updates` OR `ncu`
+  - To install `npm-check-updates`use command: `npm install npm-check-updates -g`
+- Once `ncu` installed, run command: `npm-check-updates` OR `ncu` to get the list of all latest updated version of packages
+- Run command: `ncu -u` to upgrade package.json file with latest versions of packages
+- Finally run the command: `npm install` to install all updated packages from package.json
