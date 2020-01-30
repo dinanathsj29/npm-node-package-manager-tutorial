@@ -108,6 +108,7 @@ Topics included/covered
       - 4.9.5. [Updating Latest Major release](#495-updating-latest-major-release) 
     - 4.10. [NPM Prune](#410-npm-prune) | [Remove Unused Extraneous Packages](#410-remove-unused-extraneous-packages)
 
+5. [Using a Extermal Package](#5-using-a-extermal-package) | [Using a Extermal Third Party Package](#5-using-a-extermal-third-party-package)
 
 1 Introduction to Node-Nodejs
 =====================
@@ -926,3 +927,64 @@ The `npm list` command shows up a list of `unused, unwanted, extraneous packages
 > **Example**: `npm prune`
 
 This command removes such extraneous packages. If a package name is provided, then only packages matching one of the supplied names are removed.
+
+5 Using a Extermal Package
+=====================
+5 Using a Extermal Third Party Package
+=====================
+
+1. Visit the website: https://www.npmjs.com
+    - At npm official website: https://www.npmjs.com/ we can search for the specifically required package and have all help/detailed information of the package
+2. Search for any popular npm package/library like `underscore` website: `https://underscorejs.org/` (its a utility for widely used for JavaScript functions, JavaScript's functional programming helper library.)
+3. Install `underscore` by using npm command: `npm i underscore`, (now a days as per the latest node/npm versions, we no longer need to specify `--save` flag (an entry in package.json and `node_modules` done automatically/by default))
+4. Create a new entry point file at the root of the package named `index.js`
+    - Include/load underscore package/module: var _ = require('underscore');
+    - First `package_name ie. underscore ` is searched in node core module than locally as files/folders and/or then in 'node_modules' folder
+5. Check exact usability and use-cases of 'underscore' at website/help and use accordingly `underscore functions`
+6. Check the files output by using node command: `node index.js`
+
+> **Syntax & Example**: `5-using-external-third-party-package/package.json`
+
+```json
+{
+  "name": "using-external-thir-party-package",
+  "version": "1.0.0",
+  "description": "Learn using-external-thir-party-package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "using-external-thir-party-package"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "^1.9.2"
+  }
+}
+```
+
+> **Syntax & Example**: `5-using-external-third-party-package/index.js`
+
+```js
+// include/load underscore library
+var _ = require('underscore');
+
+// use underscore library
+var isContains = _.contains(['hi', 'hello', 'hey', 'hola'], 'hello');
+console.log('It contains hello:', isContains);
+```
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/5.1-using-external-third-party-package-folder-structure.png" alt="Using a Extermal Third Party Package: Folder Structure" title="Using a Extermal Third Party Package: Folder Structure" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 5.1 - Using a Extermal Third Party Package: Folder Structure </figcaption>
+ </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/5.2-using-external-third-party-package-node-output.png" alt="Using a Extermal Third Party Package: Node Output" title="Using a Extermal Third Party Package: Node Output" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 5.2 - Using a Extermal Third Party Package: Node Output </figcaption>
+ </figure>
+</p>
