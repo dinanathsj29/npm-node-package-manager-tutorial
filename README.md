@@ -1019,7 +1019,7 @@ Code/program/Instructions that another set of Code/program depends on to functio
 ### **6.1. Application Dependencies**
 ---------------------
 
-The dependencies are essential for running the application
+The dependencies are essential for running the application, basic common packages need every-time.
 
 - The command `npm i <package_name>` will create one entry in `package.json` file and all required dependencies get installed under `node_modules` folder
   - Command: `npm install <package_name>`
@@ -1027,10 +1027,13 @@ The dependencies are essential for running the application
 
 ### **6.2. Dev Dependencies**
 ---------------------
-The devDependencies are only required to develop the application
+Global dependencies: `npm install <package_name> -g`, it is installed in common program files folder
 
 - Development dependencies like unit testing tools/packages, static analysis based packages, code bundling tools are not supposed to go to the production environment where we deploy the applications
 - Use/Supply`--save-dev` flag to save provided package under dev dependencies (`devDependencies`) section of package.json file
   - `npm install <package_name> --save-dev`
 > **Note:** All dependencies are getting installed under node_modules folder but segregated only in package.json file as `dependencies & devDependencies`. 
+
+Global dependencies: `npm install <package_name> -g`, it is installed in common program files folder `path environment variables`
+
 
