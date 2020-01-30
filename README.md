@@ -118,7 +118,12 @@ Topics included/covered
 
 7. [NPM Packages and Source Control](#7-npm-packages-and-source-control)
     - 7.1. [Ignore node_modules folder](#71-ignore-node_modules-folder)
-    
+
+10. [NPM Resources](#10-npm-resources) 
+    - 10.1. [Websites Reference Links](#101-websites-reference-links)
+    - 10.2. [NPM command Shortcuts](#102-npm-command-shortcuts)
+    - 10.3. [Commonly Widely used Node-NPM commands](#103-commonly-widely-used-node-npm-commands)
+
 1 Introduction to Node-Nodejs
 =====================
 
@@ -1118,3 +1123,35 @@ Global dependencies: `npm install <package_name> -g`, it is installed in common 
 ```
 node_modules/
 ```
+
+10 NPM Resources
+=====================  
+
+### **10.1. Websites Reference Links** 
+---------------------
+
+> **Reference:** - https://nodejs.org
+
+> **Reference:** - https://www.npmjs.com/
+
+### **10.2. NPM command Shortcuts** 
+---------------------
+
+1. npm init `-y` : Default value for package.json
+2. npm `i` <package_name> : `install`
+3. npm i <package_name> `-S` : `Save`
+4. npm i <package_name> `-D` : `Save as devDependency`
+5. `-g` : `global`
+6. npm `-v` : `version`
+
+> **Reference:** - https://docs.npmjs.com/misc/config
+
+### **10.3. Commonly Widely used Node-NPM commands** 
+---------------------
+
+- `node -v`  OR `node --version` : To get Node version, command is...
+- `npm -v` OR `npm --version` : To get NPM version(s)
+- `npm install -g @angular/cli` : To install Angular CLI
+- `ng -v` OR `ng --version` : To get angular CLI version, (this command displays details of a node, npm, and other angular package versions)
+- `ng` OR `ng --help` : to get various angular CLI commands
+
