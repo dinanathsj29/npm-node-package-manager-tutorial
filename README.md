@@ -110,6 +110,10 @@ Topics included/covered
 
 5. [Using a Extermal Package](#5-using-a-extermal-package) | [Using a Extermal Third Party Package](#5-using-a-extermal-third-party-package)
 
+6. [Package Dependencies](#6-package-dependencies) | [Package Dependency Management](#6-package-dependency-management)
+    - 6.1. [Application Dependencies](#61-application-dependencies)
+    - 6.2. [Dev Dependencies](#62-dev-dependencies)
+
 1 Introduction to Node-Nodejs
 =====================
 
@@ -988,3 +992,33 @@ console.log('It contains hello:', isContains);
     <figcaption>&nbsp;&nbsp;&nbsp; Image - 5.2 - Using a Extermal Third Party Package: Node Output </figcaption>
  </figure>
 </p>
+
+6 Package Dependencies
+=====================
+
+6 Package Dependency Management
+=====================
+
+Code/program/Instructions that another set of Code/program depends on to function (Like We use particuler set of code in our app, it is a dependency - our app depends on it. It may be possible that current code depends on some other code and have some other dependencies).
+
+**There are two types of dependencies:**
+1. Application/project dependencies
+2. Dev dependencies
+
+### **6.1. Application Dependencies**
+---------------------
+
+The dependencies are essential for running the application
+
+- The command `npm i <package_name>` will create one entry in `package.json` file and all required dependencies get installed under `node_modules` folder
+  - Command: `npm install <package_name>`
+- In the past/previous npm version, all dependencies use to install inside `folder->folder->folder` etc., but now as per latest node/npm - all dependencies are getting installed `at the root node_modules` folder to avoid deeply nested long path, characters limitations in file/folder naming convention
+
+### **6.2. Dev Dependencies**
+---------------------
+The devDependencies are only required to develop the application
+
+- Development dependencies like unit testing tools/packages, static analysis based packages, code bundling tools are not supposed to go to the production environment where we deploy the applications
+- Use/Supply`--save-dev` flag to save provided package under dev dependencies (`devDependencies`) section of package.json file
+  - `npm install <package_name> --save-dev`
+> **Note:** All dependencies are getting installed under node_modules folder but segregated only in package.json file as `dependencies & devDependencies`. 
