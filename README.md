@@ -95,7 +95,7 @@ Topics included/covered
     - 4.1. [Popular famous NPM Packages](#41-popular-famous-npm-packages)
     - 4.2. [More on NPM Packages](#42-more-on-npm-packages) | [Local and Global Packages](#42-local-and-global-packages)
     - 4.3. [Installing Local Packages](#43-installing-local-packages) | [Installing Node-NPM Package Locally](#43-installing-node-npm-package-locally)
-    - 4.3*. [Installing Specific Version of a Package](#43*-installing-specific-version-of-a-package)
+    - 4.3.1. [Installing Specific Version of a Package](#43*-installing-specific-version-of-a-package)
     - 4.4. [Uninstalling Local Packages](#44-uninstalling-local-packages)
     - 4.5. [Installing Global Packages](#45-installing-global-packages)
     - 4.6. [Uninstalling Global Packages](#46-uninstalling-global-packages)
@@ -735,6 +735,16 @@ Packages are categorized under `two different categories` depending on their mod
   </figure>
 </p>
 
+4.3.1. Installing Specific Version of a Package
+---------------------
+
+Sometimes we need to upgrade or downgrade to the specific version of a particular package. To install/setup a specific version use following command:
+
+> **Syntax**: `npm install <package_name>@version`
+
+> **Example**: `npm install underscore@1.9.2`
+
+
 4.4. Uninstalling Local Packages
 ---------------------
 
@@ -1024,11 +1034,3 @@ The devDependencies are only required to develop the application
   - `npm install <package_name> --save-dev`
 > **Note:** All dependencies are getting installed under node_modules folder but segregated only in package.json file as `dependencies & devDependencies`. 
 
-4.3*. Installing Specific Version of a Package
----------------------
-
-Sometimes we need to upgrade or downgrade to the specific version of a particular package. To install/setup a specific version use following command:
-
-> **Syntax**: `npm install <package_name>@version`
-
-> **Example**: `npm install underscore@1.9.2`
