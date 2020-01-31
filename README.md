@@ -1137,21 +1137,31 @@ node_modules/
 ### **10.2. NPM command Shortcuts** 
 ---------------------
 
-1. npm init `-y` : Default value for package.json
-2. npm `i` <package_name> : `install`
-3. npm i <package_name> `-S` : `Save`
-4. npm i <package_name> `-D` : `Save as devDependency`
-5. `-g` : `global`
-6. npm `-v` : `version`
+| **Node-NPM command**                      | **Description**                           |
+| ------------------------------------------|-------------------------------------------|
+| npm init `-y`                             | Skips questions and creates package.json with default values)         |
+| npm `i` <package_name>                    | Install                                   |
+| npm i <package_name> `-S`                 | `Save` package as Dependency in package.json|
+| npm i <package_name> `-D`                 | Save package as `devDependency` in package.json |
+| `-g`                                      | Global                                    |
+| npm `-v`                                  | Version                                   |
 
 > **Reference:** - https://docs.npmjs.com/misc/config
 
 ### **10.3. Commonly Widely used Node-NPM commands** 
 ---------------------
 
-- `node -v`  OR `node --version` : To get Node version, command is...
-- `npm -v` OR `npm --version` : To get NPM version(s)
-- `npm install -g @angular/cli` : To install Angular CLI
-- `ng -v` OR `ng --version` : To get angular CLI version, (this command displays details of a node, npm, and other angular package versions)
-- `ng` OR `ng --help` : to get various angular CLI commands
+### Table: Widely used Node-NPM commands
+
+<div class="table-widely-used-commands">
+
+| **Node-NPM command**                      | **Description**                           |
+| ------------------------------------------|-------------------------------------------|
+| `node -v`  OR `node --version`            | To get Node Version                       |
+| `npm -v`  OR `npm --version`              | To NPM Node Version                       |
+| `npm install -g @angular/cli`             | To install Angular CLI globally           |
+| `npm -h` OR `npm -help` OR `npm --help`   | To get help on any node/npm command       |
+| `npm install <package_name>` OR `npm i <package_name>`   | To Install Node-NPM Package  |
+
+
 
