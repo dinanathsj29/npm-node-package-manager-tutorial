@@ -119,6 +119,12 @@ Topics included/covered
 7. [NPM Packages and Source Control](#7-npm-packages-and-source-control)
     - 7.1. [Ignore node_modules folder](#71-ignore-node_modules-folder)
 
+9. [Creating and Publishing a Package to NPM Registry](#9-creating-and-publishing-a-package-to-npm-registry) 
+    - 9.1. [Creating a New Package](#91-creating-a-new-package)
+    - 9.2. [Publishing a Package](#92-publishing-a-package)
+    - 9.3. [Using a Published Package](#93-using-a-published-package)
+    - 9.4. [Updating a Published Package](#94-updating-a-published-package)
+
 10. [NPM Resources](#10-npm-resources) 
     - 10.1. [Websites Reference Links](#101-websites-reference-links)
     - 10.2. [NPM command Shortcuts](#102-npm-command-shortcuts)
