@@ -1172,6 +1172,59 @@ To Publish a package to online NPM registry, the developer should have User Cred
 - Now in any .js file try to call latest methods
 - execute file with command: `node <file-name>`
 
+> **Syntax & Example**: `9-creating-publishing-package/maths-lib/index.js`
+
+```js
+module.exports.add = function (num1, num2) { 
+  return num1 + num2;
+}
+
+module.exports.subtract = function (num1, num2) { 
+  return num1 - num2;
+}
+
+module.exports.multiply = function (num1, num2) { 
+  return num1 * num2;
+}
+
+module.exports.divide = function (num1, num2) { 
+  return num1 / num2;
+}
+
+module.exports.oddEven = function (num1) {
+  if(num1 % 2 === 0){
+    return 'Even Number';
+  } else {
+    return 'Odd Number';
+  }
+}
+```
+
+> **Syntax & Example**: `9-creating-publishing-package/using-published-package/index.js`
+
+```js
+var mathsLib = require('maths-lib-1');
+var add = mathsLib.add(10,20);
+console.log(add);
+
+var oddEvenNumber =mathsLib.oddEven(39);
+console.log(oddEvenNumber);
+```
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/9.1.1-published-package-search.png" alt="Search published package at npm registry" title="Search published package at npm registry" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 9.1.1 - Search published package at npm registry </figcaption>
+ </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/9.1.2-published-package-details.png" alt="Details of published package at npm registry" title="Details of published package at npm registry" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 9.1.2 - Details of published package at npm registry </figcaption>
+ </figure>
+</p>
+
 10 NPM Resources
 =====================  
 
