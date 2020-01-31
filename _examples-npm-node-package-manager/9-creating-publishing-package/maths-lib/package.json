@@ -1,0 +1,20 @@
+{
+  "name": "maths-lib-1",
+  "version": "1.1.0",
+  "description": "Maths library for basic maths operations and publish as a npm package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "maths",
+    "library",
+    "maths",
+    "package",
+    "npm",
+    "publish",
+    "mathematical operations"
+  ],
+  "author": "Dinanath Jayaswal",
+  "license": "ISC"
+}

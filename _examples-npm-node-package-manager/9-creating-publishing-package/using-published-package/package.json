@@ -1,0 +1,19 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "to test node/npm node_modules package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "node npm demo"
+  ],
+  "author": "Dinanath",
+  "license": "ISC",
+  "dependencies": {
+    "maths-lib-1": "^1.1.0"
+  }
+}
