@@ -1124,6 +1124,48 @@ Global dependencies: `npm install <package_name> -g`, it is installed in common 
 node_modules/
 ```
 
+9 Creating and Publishing a Package to NPM Registry
+=====================
+
+9.1. Creating a New Package
+---------------------
+
+- Create a new directory on local to store new library/package, command: `mkdir maths-lib`
+- Change directory to explore inside, command: `cd maths-lib`
+- Create/Instantiate new package.json file, command: `npm init -y` or `npm init --yes`
+- Create a new file named `index.js` as the entry of package, create and export some function as per logic and requirements of the package
+
+9.2. Publishing a Package
+---------------------
+
+To Publish a package to online NPM registry, the developer should have User Credentials:
+
+- Create an account/register/sign-up at `https://www.npmjs.com/` 
+    - by visiting in a browser or 
+    - at the command prompt using the command: `npm adduser`
+- If a user already exists than sign-in by using the command: `npm login` and enter credentials with the email address
+- To publish a package use command: `npm publish` (if any error related to package name pops-up, change the name in package.json with some unique identifier as `"name":maths-lib-1` or so...)
+
+9.3. Using a Published Package
+---------------------
+
+- To check/verify/install and use `maths-lib-1` package, create a new folder for fresh application and try to install package with command: `npm install maths-lib-1`
+- To use/call/load previously created `maths-lib-1` package/module in new appliacation, create a new `index.js` file and `import/load maths-lib-1` package with '`require('maths-lib-1')`', try to call its methods
+- execute file with command: `node <file-name>` or `node index.js`
+
+9.4. Updating a Published Package
+---------------------
+
+- Make necessary changes in any .js file of the previously created package by adding and exporting some more functions/logic
+- change version manually in package.json file or run the command: 
+    - `npm version major` OR
+    - `npm version minor` OR
+    - `npm version patch`
+- To publish edited package command: `npm publish`
+- Go to other application and run update old package to new version command: `npm update`
+- Now in any .js file try to call latest methods
+- execute file with command: `node <file-name>`
+
 10 NPM Resources
 =====================  
 
