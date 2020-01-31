@@ -119,6 +119,9 @@ Topics included/covered
 7. [NPM Packages and Source Control](#7-npm-packages-and-source-control)
     - 7.1. [Ignore node_modules folder](#71-ignore-node_modules-folder)
 
+8. [NPM Scripts](#8-npm-scripts)
+    - 8.1. [Creating and running custom script](#81-creating-and-running-custom-script)
+
 9. [Creating and Publishing a Package to NPM Registry](#9-creating-and-publishing-a-package-to-npm-registry) 
     - 9.1. [Creating a New Package](#91-creating-a-new-package)
     - 9.2. [Publishing a Package](#92-publishing-a-package)
@@ -1129,6 +1132,72 @@ Global dependencies: `npm install <package_name> -g`, it is installed in common 
 ```
 node_modules/
 ```
+
+8 NPM Scripts
+=====================
+
+`Scripts` section of package.json file run by default, it is very handy when you want to execute/run/initiate some custom tasks from package.json.
+
+`Scripts` section consists of custom command or scripts to use in application i.e. `npm test` or `npm build` or `npm serve` or `npm start` etc. Here `test, build, serve, start` is a custom script that executes default tasks/activities as per logic/requirements.
+
+8.1. Creating and running custom script
+---------------------
+
+1. Create a package.json with the command: `npm init -y`
+2. Change/replace the existing scripts
+
+```json
+"scripts": {
+ "test": "echo \"Error: no test specified\" && exit 1"
+ },
+```
+
+To
+
+```json
+"scripts": {
+ "start": "node app.js"
+ },
+```
+3. Create a new .js file named as `app.js`, write some statements with console.log
+4. Run command `npm start` to initiate application and get output at terminal console
+
+> **Syntax & Example**: `package.json`
+
+```json
+{
+  "name": "8.1-creating-runnning-npm-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Dinanath Jayaswal",
+  "license": "ISC"
+}
+```
+
+> **Syntax & Example**: `app.js`
+
+```js
+console.log('NPM start... app.js running');
+```
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/8.1.1-creating-running-npm-script-folder-structure.png" alt="Creating Running custom script Folder structure" title="Creating Running custom script Folder structure" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 8.1.1 - Creating Running custom script Folder structure </figcaption>
+ </figure>
+</p>
+
+<p>
+  <figure>
+  &nbsp;&nbsp;&nbsp; <img src="./_images-npm-node-package-manager/8.1.2-creating-running-npm-script-output.png" alt="Running custom script output" title="Running custom script output" width="1000" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - 8.1.2 - Running custom script output </figcaption>
+ </figure>
+</p>
 
 9 Creating and Publishing a Package to NPM Registry
 =====================
