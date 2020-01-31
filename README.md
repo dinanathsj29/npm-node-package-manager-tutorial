@@ -1137,6 +1137,8 @@ node_modules/
 ### **10.2. NPM command Shortcuts** 
 ---------------------
 
+### Table: NPM command Shortcuts
+
 | **Node-NPM command**                      | **Description**                           |
 | ------------------------------------------|-------------------------------------------|
 | npm init `-y`                             | Skips questions and creates package.json with default values)         |
