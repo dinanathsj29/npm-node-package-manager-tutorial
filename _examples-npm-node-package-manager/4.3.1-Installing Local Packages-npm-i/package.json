@@ -17,6 +17,6 @@
   "author": "Dinanath Jayaswal",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.29.2"
   }
 }
